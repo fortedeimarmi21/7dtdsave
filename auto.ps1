@@ -4,6 +4,6 @@ while($true)
     Write-Host $date;
     git add .;
     git commit -m 'ff';
-    start-sleep -seconds 1;
+    start-sleep -seconds 60;
     
 }
